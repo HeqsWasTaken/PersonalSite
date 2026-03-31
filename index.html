@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tufan CV</title>
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <script src="js/theme.js" defer></script>
+  <script src="js/language.js" defer></script>
+  <script src="js/carousel.js" defer></script>
+  <script src="js/neural.js" defer></script>
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+
+<nav>
+  <h2>Tufan</h2>
+  <div class="controls">
+    <div class="toggle lang-toggle" id="langToggle">
+      <div class="slider"><span>🇹🇷</span><span>🇺🇸</span></div>
+    </div>
+    <div class="toggle theme-toggle" id="themeToggle">
+      <div class="slider"><span>🌙</span><span>☀️</span></div>
+    </div>
+  </div>
+</nav>
+
+<main class="container">
+  <section class="hero">
+    <h1 id="title">Hi, I'm Tufan ⚡</h1>
+    <p id="subtitle">Frontend Developer / UI Builder</p>
+
+    <div class="buttons">
+      <button onclick="rotateTo(0)" data-key="who">Ben Kimim</button>
+      <button onclick="rotateTo(1)" data-key="goal">Amacım</button>
+      <button onclick="rotateTo(2)" data-key="contact">İletişim</button>
+    </div>
+  </section>
+
+  <div class="carousel-container">
+    <div class="carousel" id="carousel">
+      <div class="panel">
+        <h2 id="panel-who-title">Ben Kimim</h2>
+        <p id="panel-who-text">Modern web uygulamaları geliştiriyorum.</p>
+      </div>
+
+      <div class="panel">
+        <h2 id="panel-goal-title">Amacım</h2>
+        <p id="panel-goal-text">Yaratıcı projeler üretmek.</p>
+      </div>
+
+      <div class="panel">
+        <h2 id="panel-contact-title">İletişim</h2>
+        <a id="panel-contact-btn" href="mailto:tupokilic@gmail.com">Mail Gönder</a>
+      </div>
+    </div>
+  </div>
+</main>
+
+</body>
+</html>
